@@ -1,7 +1,7 @@
 # Desafio 2 - Full Cycle Docker
 
 ## Objetivo
-Subir uma aplicacao Node.js com MySQL e Nginx via Docker Compose.
+Subir uma aplicação Node.js com MySQL e Nginx via Docker Compose.
 A resposta deve exibir:
 
 ```
@@ -11,10 +11,10 @@ A resposta deve exibir:
 seguida pela lista de nomes inseridos no banco.
 
 ## Estrutura
-- `docker-compose.yml`: orquestracao dos servicos.
+- `docker-compose.yml`: orquestração dos serviços.
 - `db/init.sql`: cria a tabela `people`.
 - `app/index.js`: app Node + Express.
-- `app/Dockerfile`: build da aplicacao.
+- `app/Dockerfile`: build da aplicação.
 - `nginx/nginx.conf`: proxy reverso.
 
 ## Como rodar
@@ -33,7 +33,7 @@ docker compose down
 ```
 
 ## Observacoes
-- Os nomes sao inseridos apenas uma vez na inicializacao.
+- Os nomes são inseridos apenas uma vez na inicialização.
 - Para limpar o banco, use:
 ```bash
 docker compose down -v
