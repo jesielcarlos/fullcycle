@@ -14,12 +14,12 @@ Full Cycle Rocks!!
 
 ## Como buildar
 ```bash
-docker build -t <seu-user>/fullcycle .
+docker build -t jcarlos/fullcycle .
 ```
 
 ## Como executar
 ```bash
-docker run --rm <seu-user>/fullcycle
+docker run --rm jcarlos/fullcycle
 ```
 
 Saida esperada:
@@ -29,10 +29,10 @@ Full Cycle Rocks!!
 
 ## Publicar no Docker Hub
 ```bash
-docker push <seu-user>/fullcycle
+docker push jcarlos/fullcycle
 ```
 
 ## Checar tamanho da imagem
 ```bash
-docker images <seu-user>/fullcycle
+docker images jcarlos/fullcycle
 ```
